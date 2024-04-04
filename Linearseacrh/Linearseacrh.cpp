@@ -37,11 +37,11 @@ void LinearSearch()
 	do
 	{
 		//Accept the number to be searched
-		cout << "\nENter the element you want to search: ";
+		cout << "\nENter the element you want to search: ";	//step 1
 		cin >> item;
 
 		ctr = 0;
-		i = 0;
+		i = 0;		
 		while (i < n)
 		{
 			ctr++;
